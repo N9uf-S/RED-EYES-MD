@@ -20,7 +20,7 @@ export const commands = [
     description: 'Identify a song from an audio or video clip.',
     category: 'Search',
     execute: async ({ sock, from, text, msg, config }) => {
-      const botName = config.BOT_NAME || 'Flash-MD';
+      const botName = config.BOT_NAME || 'RED EYES-MD';
       const quoted = msg.message?.extendedTextMessage?.contextInfo?.quotedMessage;
       
       if (!quoted || (!quoted.audioMessage && !quoted.videoMessage)) {
