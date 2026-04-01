@@ -10,8 +10,8 @@ export const commands = [
 
   execute: async ({ sock, from, text, msg, config }) => {
 
-    const botName = config.BOT_NAME || 'Flash-MD'
-    const botVersion = config.BOT_VERSION || '3.0.0'
+    const botName = config.BOT_NAME || 'RED EYES-MD'
+    const botVersion = config.BOT_VERSION || '1.0.0'
 
     if (!text) {
       return sock.sendMessage(from,{
