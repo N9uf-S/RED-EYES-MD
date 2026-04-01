@@ -44,7 +44,7 @@ export const commands = [
         }
 
         const { title, total, videos } = response.data;
-        const botName = config.BOT_NAME || 'FLASH-MD V3';
+        const botName = config.BOT_NAME || 'RED EYES-MD V1';
 
         let playlistText = `🎵 *${botName} PLAYLIST*\n\n`;
         playlistText += `📋 *${title || 'MIX'}*\n`;
