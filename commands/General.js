@@ -62,10 +62,10 @@ export const commands = [
     description: 'Sends contact card of the bot owner.',
     category: 'General',
     execute: async ({ sock, from, text, msg, config }) => {
-      const botName = config.BOT_NAME || 'Flash-MD';
-      const botVersion = config.BOT_VERSION || '3.0.0';
-      const ownerNumber = config.OWNER_NUMBER || '254742063632';
-      const ownerName = config.OWNER_NAME || 'FLASH-MD Owner';
+      const botName = config.BOT_NAME || 'RED EYES-MD';
+      const botVersion = config.BOT_VERSION || '1.0.0';
+      const ownerNumber = config.OWNER_NUMBER || '2250160098804';
+      const ownerName = config.OWNER_NAME || 'N9uf_S Owner';
       const formattedPhone = ownerNumber.replace(/\D/g, '');
       
       const vcard = `BEGIN:VCARD
@@ -88,8 +88,8 @@ END:VCARD`;
     description: 'Takes a screenshot of a website.',
     category: 'General',
     execute: async ({ sock, from, text, msg, config }) => {
-      const botName = config.BOT_NAME || 'Flash-MD';
-      const botVersion = config.BOT_VERSION || '3.0.0';
+      const botName = config.BOT_NAME || 'RED EYES-MD';
+      const botVersion = config.BOT_VERSION || '1.0.0';
 
       if (!text) {
         return sock.sendMessage(
@@ -124,8 +124,8 @@ END:VCARD`;
     description: 'Get a Bible verse from a specific book, chapter, and verse.',
     category: 'General',
     execute: async ({ sock, from, text, msg, config }) => {
-      const botName = config.BOT_NAME || 'Flash-MD';
-      const botVersion = config.BOT_VERSION || '3.0.0';
+      const botName = config.BOT_NAME || 'RED EYES-MD';
+      const botVersion = config.BOT_VERSION || '1.0.0';
       
       if (!text) {
         return sock.sendMessage(from, { 
@@ -149,8 +149,8 @@ END:VCARD`;
     description: 'Create a poll.',
     category: 'General',
     execute: async ({ sock, from, text, msg, config }) => {
-      const botName = config.BOT_NAME || 'Flash-MD';
-      const botVersion = config.BOT_VERSION || '3.0.0';
+      const botName = config.BOT_NAME || 'RED EYES-MD';
+      const botVersion = config.BOT_VERSION || '1.0.0';
       const input = text;
       const [question, optionsString] = input.split('/');
       
@@ -175,8 +175,8 @@ END:VCARD`;
     description: 'Get a random fact.',
     category: 'User',
     execute: async ({ sock, from, text, msg, config }) => {
-      const botName = config.BOT_NAME || 'Flash-MD';
-      const botVersion = config.BOT_VERSION || '3.0.0';
+      const botName = config.BOT_NAME || 'RED EYES-MD';
+      const botVersion = config.BOT_VERSION || '1.0.0';
       
       try {
         const fact = await getRandomFact();
@@ -195,8 +195,8 @@ END:VCARD`;
     description: 'Get a random quote.',
     category: 'User',
     execute: async ({ sock, from, text, msg, config }) => {
-      const botName = config.BOT_NAME || 'Flash-MD';
-      const botVersion = config.BOT_VERSION || '3.0.0';
+      const botName = config.BOT_NAME || 'RED EYES-MD';
+      const botVersion = config.BOT_VERSION || '1.0.0';
       
       try {
         const quote = await getRandomQuote();
@@ -214,8 +214,8 @@ END:VCARD`;
     description: 'Get a definition for a term.',
     category: 'Search',
     execute: async ({ sock, from, text, msg, config }) => {
-      const botName = config.BOT_NAME || 'Flash-MD';
-      const botVersion = config.BOT_VERSION || '3.0.0';
+      const botName = config.BOT_NAME || 'RED EYES-MD';
+      const botVersion = config.BOT_VERSION || '1.0.0';
       
       if (!text) {
         return sock.sendMessage(from, { 
@@ -240,8 +240,8 @@ END:VCARD`;
     description: 'Evaluate JavaScript code.',
     category: 'General',
     execute: async ({ sock, from, text, msg, config }) => {
-      const botName = config.BOT_NAME || 'Flash-MD';
-      const botVersion = config.BOT_VERSION || '3.0.0';
+      const botName = config.BOT_NAME || 'RED EYES-MD';
+      const botVersion = config.BOT_VERSION || '1.0.0';
       
       if (!text) {
         return sock.sendMessage(from, { 
