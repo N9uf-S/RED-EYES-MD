@@ -54,7 +54,7 @@ export const commands = [
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
               newsletterJid: '120363238139244263@newsletter',
-              newsletterName: config.BOT_NAME || 'Flash-MD',
+              newsletterName: config.BOT_NAME || 'RED EYES-MD',
               serverMessageId: -1
             }
           }
