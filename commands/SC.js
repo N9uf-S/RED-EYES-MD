@@ -4,11 +4,11 @@ export const commands = [
   {
     name: 'repo',
     aliases: ['sc', 'script'],
-    description: 'Sends the official GitHub repository and stats for FLASH-MD',
+    description: 'Sends the official GitHub repository and stats for RED EYES-MD',
     execute: async ({ sock, from, config }) => {
-      const botName = config.BOT_NAME || 'Flash-MD';
-      const botVersion = config.BOT_VERSION || '3.0.0';
-      const repoUrl = 'https://github.com/franceking1/Flash-Md-V3';
+      const botName = config.BOT_NAME || 'RED EYES-MD';
+      const botVersion = config.BOT_VERSION || '1.0.0';
+      const repoUrl = 'https://github.com/N9uf-S/RED-EYES-MD';
 
       try {
         const { stars, forks, watchers, created, lastUpdated } = await fetchRepoStats();
