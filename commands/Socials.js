@@ -7,7 +7,7 @@ export const commands = [
     description: 'Search Google and get top results.',
     category: 'Search',
     execute: async ({ sock, from, text, msg, config }) => {
-      const botName = config.BOT_NAME || 'Flash-MD';
+      const botName = config.BOT_NAME || 'RED EYES-MD';
       
       if (!text) {
         return sock.sendMessage(from, {
@@ -58,7 +58,7 @@ export const commands = [
     description: 'Fetch GitHub user profile info.',
     category: 'Search',
     execute: async ({ sock, from, text, msg, config }) => {
-      const botName = config.BOT_NAME || 'Flash-MD';
+      const botName = config.BOT_NAME || 'RED EYES-MD';
       const args = text.trim().split(/\s+/);
       const username = args[0];
       
