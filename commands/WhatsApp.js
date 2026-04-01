@@ -598,7 +598,7 @@ export const commands = [
       
       const name = text;
       const phoneNumber = quotedSender.split('@')[0];
-      const vcardString = `BEGIN:VCARD\nVERSION:3.0\nFN:${name}\nTEL;type=CELL;type=VOICE;waid=${phoneNumber}:${phoneNumber}\nEND:VCARD`;
+      const vcardString = `BEGIN:VCARD\nVERSION:1.0\nFN:${name}\nTEL;type=CELL;type=VOICE;waid=${phoneNumber}:${phoneNumber}\nEND:VCARD`;
       
       await sock.sendMessage(
         from,
