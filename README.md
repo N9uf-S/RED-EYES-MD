@@ -7,7 +7,6 @@
 **RED EYES-MD** is a powerful, fully customizable WhatsApp bot built with **Node.js** and the **WhatsApp Web API**. Automate tasks, manage groups, and enhance your WhatsApp experience with ease.
 ## CONNECT TO WHATSAPP:
 - **STAR REPO AND THEN** [FORK IT](https://github.com/franceking1/Flash-Md-V2/fork) 
-- **GET SESSION ID USING** [FLASH-MD SESSION 1](https://flashv3sessions-766131578c33.herokuapp.com) Or [FLASH-MD SESSION 2](https://flashv3.onrender.com)
 
 
 ### 🚀 Deployment Platforms:
@@ -30,7 +29,7 @@
 git clone https://github.com/franceking1/FLASH-MD-V3.git
 ```
 ```bash
-cd FLASH-MD-V3
+cd RED EYES-MD
 ```
 ```bash
 npm install
@@ -45,7 +44,7 @@ npm start
 ### ⚠️ Warning
 
 - **Do NOT copy, modify, or redistribute** this bot without **proper permission**.
-- FLASH-MD-V3 is an **open-source project**, but it is protected by its license and community standards.
+- RED EYES-MD is an **open-source project**, but it is protected by its license and community standards.
 - Give **proper credits** to the original authors and libraries used.
 - Any misuse or abuse of this bot is **strictly prohibited**.
 
