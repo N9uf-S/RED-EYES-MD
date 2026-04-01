@@ -33,7 +33,7 @@ export const commands = [
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
               newsletterJid: '120363238139244263@newsletter',
-              newsletterName: 'FLASH-MD',
+              newsletterName: 'RED EYES-MD',
               serverMessageId: -1
             }
           }
