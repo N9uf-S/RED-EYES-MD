@@ -27,8 +27,8 @@ export const commands = [
             },
             message: {
               contactMessage: {
-                displayName: 'FLASH-MD-V3',
-                vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;Flash-MD;;;\nFN:FLASH-MD-V3\nitem1.TEL;waid=${senderId}:${senderId}\nitem1.X-ABLabel:Mobile\nEND:VCARD`
+                displayName: 'RED EYES-MD-V1',
+                vcard: `BEGIN:VCARD\nVERSION:1.0\nN:;Flash-MD;;;\nFN:RED EYES-MD-V1\nitem1.TEL;waid=${senderId}:${senderId}\nitem1.X-ABLabel:Mobile\nEND:VCARD`
               }
             }
           }
@@ -44,7 +44,7 @@ export const commands = [
             key: pingMsg.key,
             type: 14,
             editedMessage: {
-              conversation: `🏓 Pong!\n⏱️ *_Flash-MD-V3 Speed: ${latency} ms_*`
+              conversation: `🏓 Pong!\n⏱️ *_RED EYES-MD-V1 Speed: ${latency} ms_*`
             }
           }
         },
@@ -65,7 +65,7 @@ export const commands = [
 
       await sock.sendMessage(
         from,
-        { text: `*_FLASH-MD-V3 UPTIME: ${formatted}_*` },
+        { text: `*_RED EYES-MD-V1 UPTIME: ${formatted}_*` },
         {
           quoted: {
             key: {
@@ -75,8 +75,8 @@ export const commands = [
             },
             message: {
               contactMessage: {
-                displayName: 'FLASH-MD-V3',
-                vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;Flash-MD;;;\nFN:FLASH-MD-V3\nitem1.TEL;waid=${senderId}:${senderId}\nitem1.X-ABLabel:Mobile\nEND:VCARD`
+                displayName: 'RED EYES-MD-V1',
+                vcard: `BEGIN:VCARD\nVERSION:1.0\nN:;RED EYES-MD;;;\nFN:RED EYES-MD-V1\nitem1.TEL;waid=${senderId}:${senderId}\nitem1.X-ABLabel:Mobile\nEND:VCARD`
               }
             }
           }
