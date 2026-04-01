@@ -16,21 +16,21 @@
     },
     "OWNER_NUMBER": {
       "description": "Owner phone number (no + or country code)",
-      "value": "",
+      "value": "2250160098804",
       "required": false
     },
     "OWNER_NAME": {
       "description": "Your name goes here",
-      "value": "",
+      "value": "N9uf_S",
       "required": false
     },
     "SESSION": {
-      "description": "put your FLASH-MD session here",
+      "description": "put your RED EYES-MD session here",
       "required": true
     },
     "TZ": {
       "description": "Timezone",
-      "value": "Africa/Nairobi",
+      "value": "Africa/Abidjan",
       "required": false
     },
     "ANTICALL": {
@@ -75,6 +75,7 @@
     },
     "USER_LID": {
       "description": "Put your lid here",
+      "value": "2250160098804@s.whatsapp.net",
       "required": true
     }
   },
