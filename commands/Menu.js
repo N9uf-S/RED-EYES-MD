@@ -76,10 +76,10 @@ export const commands = [
     category: 'General',
     execute: async ({ sock, from, msg, commands, config }) => {
       try {
-        const botName = config.BOT_NAME || 'Flash-MD'
-        const botVersion = config.BOT_VERSION || '3.0.0'
-        const ownerName = config.OWNER_NAME || 'FLASH-MD'
-        const tz = config.TZ || 'Africa/Nairobi'
+        const botName = config.BOT_NAME || 'RED EYES-MD'
+        const botVersion = config.BOT_VERSION || '1.0.0'
+        const ownerName = config.OWNER_NAME || 'N9uf_S'
+        const tz = config.TZ || 'Africa/Abidjan'
         
         const list = Array.from(commands.values())
         if (!list.length) {
@@ -152,8 +152,8 @@ export const commands = [
     category: 'General',
     execute: async ({ sock, from, text, msg, commands, config }) => {
       try {
-        const botName = config.BOT_NAME || 'Flash-MD'
-        const botVersion = config.BOT_VERSION || '3.0.0'
+        const botName = config.BOT_NAME || 'RED EYES-MD'
+        const botVersion = config.BOT_VERSION || '1.0.0'
         
         const list = Array.from(commands.values())
         if (!list.length) {
