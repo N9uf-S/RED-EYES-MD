@@ -24,7 +24,7 @@ const CONFIG = {
   PREFIXES: parsePrefixes(process.env.PREFIXES),
   PORT: parseInt(process.env.PORT) || 3000,
   SESSION: process.env.SESSION || null,
-  TZ: process.env.TZ || 'Africa/Nairobi',
+  TZ: process.env.TZ || 'Africa/Abidjan',
   ANTICALL: parseBoolean(process.env.ANTICALL || 'off'),
   ANTIDELETE: parseBoolean(process.env.ANTIDELETE || 'on'),
   ANTIEDIT: parseBoolean(process.env.ANTIEDIT || 'on'),
@@ -34,10 +34,10 @@ const CONFIG = {
   DM_PRESENCE: process.env.DM_PRESENCE || '',
   GRP_PRESENCE: process.env.GRP_PRESENCE || '',
   USER_LID: parseLids(process.env.USER_LID || ''),
-  OWNER_NUMBER: process.env.OWNER_NUMBER || '254742063632',
-  OWNER_NAME: process.env.OWNER_NAME || 'FLASH-MD Owner',
-  BOT_NAME: process.env.BOT_NAME || 'Flash-Md-V3',
-  BOT_VERSION: process.env.BOT_VERSION || '3.0.0'
+  OWNER_NUMBER: process.env.OWNER_NUMBER || '2250160098804',
+  OWNER_NAME: process.env.OWNER_NAME || 'N9uf_S Owner',
+  BOT_NAME: process.env.BOT_NAME || 'Red Eyes-Md-V1',
+  BOT_VERSION: process.env.BOT_VERSION || '1.0.0'
 }
 
 export default CONFIG
