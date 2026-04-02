@@ -192,7 +192,7 @@ export const commands = [
         
         if (response.data?.status) {
           const stickerMess = new Sticker(response.data.result, {
-            pack: 'FLASH-MD',
+            pack: 'RED EYES-MD',
             type: StickerTypes.CROPPED,
             categories: ['🤩', '🎉'],
             id: '12345',
