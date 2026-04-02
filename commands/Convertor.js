@@ -158,7 +158,7 @@ export const commands = [
           const buffer = await downloadMediaMessage(sourceMsg, 'buffer', {}, { logger: console });
 
           const sticker = new Sticker(buffer, {
-            pack: 'FLASH-MD',
+            pack: 'RED EYES-MD',
             author: msg.pushName || 'User',
             type: text?.includes('crop') ? 'cropped' : 'full',
             quality: 70
@@ -191,7 +191,7 @@ export const commands = [
             });
 
             const sticker = new Sticker(await fs.readFile(outputPath), {
-              pack: 'FLASH-MD',
+              pack: 'RED EYES-MD',
               author: msg.pushName || 'User',
               type: 'full',
               quality: 70
